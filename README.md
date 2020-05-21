@@ -17,3 +17,5 @@ This will install all required packages for running the application.
 ### `npm start`
 
 This command will launch the application on localhost:3000.
+
+Visit site on: https://samarth18.github.io/covid19-tracker/
