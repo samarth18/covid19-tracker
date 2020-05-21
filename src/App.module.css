@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  display: flex;
+  margin-top: 50px;
+}
+
+.logoImage {
+  width: 200px;
+}
+
+.trackerImage {
+  width: 500px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .logoImage {
+    width: 100%;
+  }
+
+  .trackerImage {
+    display: none;
+  }
+}
